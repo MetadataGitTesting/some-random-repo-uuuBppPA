@@ -2,6 +2,21 @@ name: rosamaria.schamberger
 description: User fork
 version: 1
 author: lincoln.jacobs@hotmail.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: lincoln.jacobs@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 10:51:26'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Mrs__Winford_Homenick:
+    name: Mrs__Winford_Homenick
+    description: Really solid info
+    createdAt: '2022-01-04 10:51:30'
+    author: lincoln.jacobs@hotmail.com
